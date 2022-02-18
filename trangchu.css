@@ -1,0 +1,273 @@
+*{margin: 0;padding: 0; box-sizing: border-box;}
+body
+{
+    padding: 0px;
+    margin: 0px;
+    min-height: 300px;
+}
+.layout>header
+{
+    background-image: url('vinhloc.png') ;
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%;
+}
+.noidung
+{
+    width: 500px;
+    
+}
+nav
+{
+    color: white;
+    font-variant: small-caps;
+    background-color:rosybrown ;
+    line-height: normal;
+}
+.menubutton
+{
+    font-size: 15px;
+}
+.menuleft a
+{
+    color: white;
+    text-decoration: none;
+}
+.menubutton ul
+{
+    background-color: rgb(73, 73, 238);
+    padding: 0px;
+    margin: 0px;
+    line-height: 30px;
+}
+.menubutton>ul>span>li
+{
+    display: inline-block;
+    width: 90px;
+    
+}
+.menubutton ul li
+{
+    padding: 10px 10px 10px 10px;
+    position: relative;
+}
+.menubutton .menuright .search
+{
+    float: right;
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+}
+.menubutton .icon a
+{
+    float: right;
+    margin: 5px;
+    padding: 5px 5px;
+    
+}
+.menubutton .iconhome a
+{
+    float: left;
+    padding: 5px 5px;
+    margin: 5px;
+}
+.menuleft a:hover
+{
+    color: yellow;
+    text-decoration: underline;
+}
+.menubutton .submenu
+{
+    list-style: none;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    top: 30px;
+    left: 0px;
+    display: none;
+    line-height: none;
+    width: 185px;
+    background: rgb(73, 73, 238);
+    border-radius: 5px
+}
+.menubutton .submenu a
+{
+    display: block;
+    line-height: 30px;
+    padding: 0px 10px;
+    color: white;
+    line-height: 20px;
+}
+.menubutton .submenu li:hover
+{
+    background: rgb(115, 115, 219);
+
+}
+.menubutton .submenu li:hover a
+{
+    color: yellow;
+}
+.menubutton>ul>span>li:hover>.submenu
+{
+    display: block;
+}
+.content
+{
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.left
+{
+    width: 250px;
+    float: left;
+    margin-left: 20px;
+    
+}
+
+.title
+{
+    height: 100px;
+    
+}
+.title h2
+{
+    margin-left: 70px;
+    background-color: rgb(65, 65, 241);
+    text-align: center;
+    color: white;
+    line-height: 50px;
+    border-radius: 5px;
+}
+.left ul li {
+    margin-left: 70px;
+    font-variant: small-caps;
+    font-size: 20px;
+    list-style: none;
+    display: block;
+    padding-left: 20px;
+    line-height: 50px;
+    background-color: rgb(250, 244, 244);
+    color: blue;
+    border-radius: 5px;
+}
+.left ul li a{
+    text-decoration: none;
+} 
+.left ul li:hover
+{
+    background-color: rgb(148, 148, 238);
+    border-bottom: 2px solid gray;
+}
+.left ul li a:hover
+{
+    color:red;
+    text-decoration: underline;
+}
+.noidung
+{
+    width: 810px;
+    height: 800px;
+    float: left;
+    padding: 30px;
+    background-color: white;
+}
+.noidungchinh h2
+{
+        margin-top: 0px;
+        height: 50px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        border-left: 5px solid blue;
+        padding: 10px;
+}
+
+
+.tintuc .tin1 h2
+{
+    float: left; 
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 350px;
+    font-variant: initial;
+    
+}
+.tintuc .tin1 p
+{
+    float: left; 
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 400px;
+    font-variant: initial;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+article
+{
+    float: left;
+    min-height: 200px;
+}
+#right
+{
+    width: 300px;
+    height: 100%;
+    float: left;
+}
+#right ul {
+    padding-left: 70px;
+    line-height: 60px;
+}
+#right ul li a
+{
+    text-decoration: none;
+}
+#right ul li a:hover
+{
+    color: rgb(228, 77, 233);
+    text-decoration: underline;
+}
+#right ul li {
+    border-radius: 5px;
+    font-variant: small-caps;
+    font-size: 20px;
+    list-style: none;
+    display: block;
+    padding-left: 30px;
+    line-height: 60px;
+    background-color: rgb(250, 244, 244);
+    color: white;
+    margin-right:0px;
+}
+#right ul li:hover
+{
+    background-color: rgb(107, 83, 243);
+    border-bottom: 2px solid gray;
+}
+footer
+{
+    border-top:5px double orangered;
+    line-height: 50px;
+    background-color:lightcyan ;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+    
+    
+    
+}
+.form form
+{
+    margin-left: 60px;
+    margin-top: 20px;
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(240, 230, 230);
+}
+
+  
+
+
+
+       
+     
